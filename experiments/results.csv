@@ -1,0 +1,21 @@
+id,category,accepted,strategy_used,original_tokens,optimized_tokens,tokens_saved,token_reduction_percent,semantic_similarity,requirement_score,reason,failure_detail
+1,AI,True,balanced,83,63,20,24.1,0.9175,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+2,AI,True,balanced,59,52,7,11.86,0.9338,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+3,AI,False,,49,38,11,22.45,0.8131,1.0,No generated candidate passed all safety checks; original prompt returned unchanged.,conservative: no token reduction | balanced: semantic similarity 0.8131 < 0.85 | aggressive: semantic similarity 0.8131 < 0.85
+4,Programming,True,balanced,64,53,11,17.19,0.9456,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+5,Programming,True,balanced,46,39,7,15.22,0.8983,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+6,Programming,True,balanced,54,48,6,11.11,0.9261,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+7,Programming,False,,44,44,0,0.0,1.0,1.0,No generated candidate passed all safety checks; original prompt returned unchanged.,conservative: no token reduction | balanced: no token reduction | aggressive: no token reduction
+8,Data Science,True,balanced,52,45,7,13.46,0.9583,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+9,Data Science,True,balanced,50,39,11,22.0,0.868,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+10,Data Science,True,balanced,54,47,7,12.96,0.9631,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+11,Education,True,balanced,61,53,8,13.11,0.9677,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+12,Education,True,balanced,53,43,10,18.87,0.9256,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+13,Education,True,balanced,49,42,7,14.29,0.9624,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+14,Business,True,balanced,62,55,7,11.29,0.9165,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+15,Business,True,balanced,58,47,11,18.97,0.9311,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+16,Business,False,,55,43,12,21.82,0.8456,1.0,No generated candidate passed all safety checks; original prompt returned unchanged.,conservative: no token reduction | balanced: semantic similarity 0.8456 < 0.85 | aggressive: semantic similarity 0.8456 < 0.85
+17,Technical,True,balanced,53,41,12,22.64,0.8992,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+18,Technical,True,balanced,54,45,9,16.67,0.9182,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+19,Technical,True,balanced,56,49,7,12.5,0.8876,1.0,Candidate 'balanced' passed all safety checks with the highest token reduction.,
+20,Technical,False,,54,54,0,0.0,1.0,1.0,No generated candidate passed all safety checks; original prompt returned unchanged.,conservative: no token reduction | balanced: no token reduction | aggressive: no token reduction
